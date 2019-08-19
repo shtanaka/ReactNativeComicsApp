@@ -13,7 +13,6 @@ const screenStyle: ViewStyle = {
   backgroundColor: color.transparent,
   paddingHorizontal: spacing[4],
 }
-const boldStyle: TextStyle = { fontWeight: "bold" }
 
 const titleWrapperStyle: TextStyle = {
   marginTop: spacing[8] + spacing[8],
@@ -21,7 +20,7 @@ const titleWrapperStyle: TextStyle = {
 }
 
 const titleStyle: TextStyle = {
-  ...boldStyle,
+  fontWeight: "bold",
   fontSize: 28,
   lineHeight: 38,
   textAlign: "center",
