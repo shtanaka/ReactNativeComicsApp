@@ -4,76 +4,43 @@ import { NavigationScreenProps } from "react-navigation"
 import { Text } from "../../components/text"
 import { Button } from "../../components/button"
 import { Screen } from "../../components/screen"
-import { Wallpaper } from "../../components/wallpaper"
-import { Header } from "../../components/header"
 import { color, spacing } from "../../theme"
-import { bowserLogo } from "./"
+import { marvelLogo } from "./"
 
-const FULL: ViewStyle = { flex: 1 }
-const CONTAINER: ViewStyle = {
+const mainViewStyle: ViewStyle = { flex: 1 }
+
+const screenStyle: ViewStyle = {
   backgroundColor: color.transparent,
   paddingHorizontal: spacing[4],
 }
-const TEXT: TextStyle = {
-  color: color.palette.white,
-  fontFamily: "Montserrat",
-}
-const BOLD: TextStyle = { fontWeight: "bold" }
-const HEADER: TextStyle = {
-  paddingTop: spacing[3],
-  paddingBottom: spacing[4] + spacing[1],
-  paddingHorizontal: 0,
-}
-const HEADER_TITLE: TextStyle = {
-  ...TEXT,
-  ...BOLD,
-  fontSize: 12,
-  lineHeight: 15,
-  textAlign: "center",
-  letterSpacing: 1.5,
-}
-const TITLE_WRAPPER: TextStyle = {
-  ...TEXT,
+const boldStyle: TextStyle = { fontWeight: "bold" }
+
+const titleWrapperStyle: TextStyle = {
+  marginTop: spacing[8] + spacing[8],
   textAlign: "center",
 }
-const TITLE: TextStyle = {
-  ...TEXT,
-  ...BOLD,
+
+const titleStyle: TextStyle = {
+  ...boldStyle,
   fontSize: 28,
   lineHeight: 38,
   textAlign: "center",
 }
-const ALMOST: TextStyle = {
-  ...TEXT,
-  ...BOLD,
-  fontSize: 26,
-  fontStyle: "italic",
+
+const descriptionStyle: TextStyle = {
+  textAlign: "center",
 }
-const BOWSER: ImageStyle = {
+
+const logoStyle: ImageStyle = {
   alignSelf: "center",
   marginVertical: spacing[5],
-  maxWidth: "100%",
+  height: 130,
+  width: '100%',
 }
-const CONTENT: TextStyle = {
-  ...TEXT,
-  color: "#BAB6C8",
-  fontSize: 15,
-  lineHeight: 22,
-  marginBottom: spacing[5],
-}
-const CONTINUE: ViewStyle = {
-  paddingVertical: spacing[4],
-  paddingHorizontal: spacing[4],
-  backgroundColor: "#5D2555",
-}
-const CONTINUE_TEXT: TextStyle = {
-  ...TEXT,
-  ...BOLD,
-  fontSize: 13,
-  letterSpacing: 2,
-}
-const FOOTER: ViewStyle = { backgroundColor: "#20162D" }
-const FOOTER_CONTENT: ViewStyle = {
+
+const footerStyle: ViewStyle = { backgroundColor: color.secondaryBackground }
+
+const footerContentStyle: ViewStyle = {
   paddingVertical: spacing[4],
   paddingHorizontal: spacing[4],
 }
@@ -81,43 +48,26 @@ const FOOTER_CONTENT: ViewStyle = {
 export interface WelcomeScreenProps extends NavigationScreenProps<{}> {}
 
 export class WelcomeScreen extends React.Component<WelcomeScreenProps, {}> {
-  nextScreen = () => this.props.navigation.navigate("demo")
+  goToNextScreen = () => this.props.navigation.navigate("demo")
+  
+  goToHeroNameScreen = () => this.props.navigation.navigate("heroName")
 
   render() {
     return (
-      <View style={FULL}>
-        <Wallpaper />
-        <Screen
-          style={CONTAINER}
-          preset="scroll"
-          backgroundColor={color.transparent}>
-          <Header
-            headerTx="welcomeScreen.poweredBy"
-            style={HEADER}
-            titleStyle={HEADER_TITLE}
-          />
-          <Text style={TITLE_WRAPPER}>
-            <Text style={TITLE} text="Your new app, " />
-            <Text style={ALMOST} text="almost" />
-            <Text style={TITLE} text="!" />
+      <View style={mainViewStyle}>
+        {/* <Header headerTx="welcomeScreen.poweredBy" style={headerStyle} titleStyle={headerTitleStyle} /> */}
+        <Screen style={screenStyle} statusBar="dark-content" preset="scroll">
+          <Text style={titleWrapperStyle}>
+            <Text style={titleStyle} text="All your favorite hero comics in one place" />
           </Text>
-          <Text style={TITLE} preset="header" tx="welcomeScreen.readyForLaunch" />
-          <Image source={bowserLogo} style={BOWSER} />
-          <Text style={CONTENT}>
-            This probably isn't what your app is going to look like. Unless your designer handed you this screen and, in that case, congrats! You're ready to ship.
-          </Text>
-          <Text style={CONTENT}>
-            For everyone else, this is where you'll see a live preview of your fully functioning app using Ignite.
+          <Image source={marvelLogo} style={logoStyle} />
+          <Text style={descriptionStyle}>
+            This is a Marvel comics listing App. Hope you can find your comics here.
           </Text>
         </Screen>
-        <SafeAreaView style={FOOTER}>
-          <View style={FOOTER_CONTENT}>
-            <Button
-              style={CONTINUE}
-              textStyle={CONTINUE_TEXT}
-              tx="welcomeScreen.continue"
-              onPress={this.nextScreen}
-            />
+        <SafeAreaView style={footerStyle}>
+          <View style={footerContentStyle}>
+            <Button tx="welcomeScreen.goToHeroName" onPress={this.goToHeroNameScreen} />
           </View>
         </SafeAreaView>
       </View>
