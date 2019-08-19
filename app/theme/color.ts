@@ -25,13 +25,17 @@ export const color = {
    */
   background: palette.white,
   /**
+   * The Secondary background.
+   */
+  secondaryBackground: palette.darkGrey,
+  /**
    * The main tinting color.
    */
-  primary: palette.orange,
+  primary: palette.red,
   /**
    * The main tinting color, but darker.
    */
-  primaryDarker: palette.orangeDarker,
+  primaryDarker: palette.angryRed,
   /**
    * A subtle color used for borders and lines.
    */
@@ -39,7 +43,7 @@ export const color = {
   /**
    * The default color of text in many components.
    */
-  text: palette.white,
+  text: palette.grey,
   /**
    * Secondary information.
    */
@@ -47,15 +51,13 @@ export const color = {
   /**
    * Error messages and icons.
    */
-  error: palette.angry,
-
+  error: palette.angryRed,
   /**
    * Storybook background for Text stories, or any stories where
    * the text color is color.text, which is white by default, and does not show
    * in Stories against the default white background
    */
   storybookDarkBg: palette.black,
-
   /**
    * Storybook text color for stories that display Text components against the
    * white background

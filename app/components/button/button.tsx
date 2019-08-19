@@ -11,7 +11,6 @@ import { mergeAll, flatten } from "ramda"
  * This component is a HOC over the built-in React Native one.
  */
 export function Button(props: ButtonProps) {
-  // grab the props
   const {
     preset = "primary",
     tx,
