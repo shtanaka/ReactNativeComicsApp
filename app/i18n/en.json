@@ -8,10 +8,9 @@
     "invalidEmail": "Invalid email address."
   },
   "welcomeScreen": {
-    "poweredBy": "POWERED BY BOWSER",
-    "readyForLaunch": "Ready for launch.",
-    "continue": "CONTINUE",
-    "goToHeroName": "GO TO HERO NAME"
+    "title": "All your favorite hero comics in one place",
+    "description": "This is a Marvel comics listing App. Hope you can find your comics here.",
+    "continue": "CONTINUE"
   },
   "demoScreen": {
     "howTo": "HOW TO",
