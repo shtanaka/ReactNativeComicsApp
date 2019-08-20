@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-dummy.m \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-prefix.pch
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-dummy.m \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-prefix.pch

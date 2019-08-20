@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTKeyCommands.m \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTKeyCommands.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTKeyCommands.m \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTKeyCommands.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h

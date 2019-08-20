@@ -1,31 +1,31 @@
 dependencies: \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Public/React-cxxreact/cxxreact/JSBundleType.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Folly/folly/Portability.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Folly/folly/portability/Config.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Folly/folly/CPortability.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTConvert.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/yoga/Yoga.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/yoga/YGEnums.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/yoga/YGMacros.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/yoga/YGValue.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTMultipartStreamReader.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
-  /Users/edsonsilva/dev/oowlish/RNComicsApp/node_modules/react-native/React/Base/RCTUtils.h
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Public/React-cxxreact/cxxreact/JSBundleType.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Folly/folly/Portability.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Folly/folly/CPortability.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/yoga/YGMacros.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/yoga/YGValue.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/ios/Pods/Headers/Private/React-Core/React/RCTMultipartStreamReader.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/oowlish/dev/ReactNativeComicsApp/node_modules/react-native/React/Base/RCTUtils.h
