@@ -36,4 +36,12 @@ export interface ScreenProps {
    * By how much should we offset the keyboard? Defaults to none.
    */
   keyboardOffset?: KeyboardOffsets
+  /**
+   * should show header? Defaults to true.
+   */
+  header?: boolean
+  /**
+   * should show backButton? Defaults to false.
+   */
+  backButton?: boolean
 }
