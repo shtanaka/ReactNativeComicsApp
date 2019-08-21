@@ -34,7 +34,7 @@ export interface TextFieldProps extends TextInputProps {
   /**
    * Various look & feels.
    */
-  preset?: "default"
+  preset?: "primary" | "secondary"
 
   forwardedRef?: any
 }
