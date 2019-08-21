@@ -8,9 +8,14 @@
     "invalidEmail": "Invalid email address."
   },
   "welcomeScreen": {
-    "title": "All your favorite hero comics in one place",
-    "description": "This is a Marvel comics listing App. Hope you can find your comics here.",
+    "title": "Marvel Comics",
+    "contentTitle": "All your favorite hero comics in one place",
+    "contentDescription": "This is a Marvel comics listing App. Hope you can find your comics here.",
     "continue": "CONTINUE"
+  },
+  "heroNameScreen": {
+    "title": "Select your hero",
+    "contentTitle": "Please type in your hero information"
   },
   "demoScreen": {
     "howTo": "HOW TO",

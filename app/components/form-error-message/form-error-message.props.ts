@@ -1,25 +1,15 @@
 import { TextInputProps, TextStyle, ViewStyle } from "react-native"
 
-export interface TextFieldProps extends TextInputProps {
-  /**
-   * The placeholder i18n key.
-   */
-  placeholderTx?: string
-
-  /**
-   * The Placeholder text if no placeholderTx is provided.
-   */
-  placeholder?: string
-
+export interface FormErrorMessageProps extends TextInputProps {
   /**
    * The label i18n key.
    */
-  labelTx?: string
+  errorTx?: string
 
   /**
    * The label text if no labelTx is provided.
    */
-  label?: string
+  errorText?: string
 
   /**
    * Optional container style overrides useful for margins & padding.
@@ -29,12 +19,12 @@ export interface TextFieldProps extends TextInputProps {
   /**
    * Optional style overrides for the input.
    */
-  inputStyle?: TextStyle | TextStyle[]
+  textStyle?: TextStyle | TextStyle[]
 
   /**
    * Various look & feels.
    */
-  preset?: "primary" | "secondary"
+  preset?: "default"
 
   forwardedRef?: any
 }

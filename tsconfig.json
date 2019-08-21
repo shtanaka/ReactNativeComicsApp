@@ -8,8 +8,5 @@
     "sourceMap": true,
     "baseUrl": ".",
     "experimentalDecorators": true,
-    "paths": {
-      "Models/Plan": ["src/Models/Plan"]
-    }
   }
 }
